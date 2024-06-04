@@ -35,7 +35,7 @@ const LeftPanel = ({ addEvent }) => {
   return (
     <>
       <h2 className='text-2xl font-bold text-center mb-8'>What&apos;s on your mind?</h2>
-      <form onSubmit={handleSubmit} className='border-black border-2 px-2 py-4 rounded flex flex-col w-[25rem]'>
+      <form onSubmit={handleSubmit} className='border-black border-2 px-2 py-4 rounded flex flex-col lg:w-[25rem] mx-4'>
         <input
           className='border-black border-2 rounded px-2 py-4 font-bold text-center mb-2'
           type="text"
